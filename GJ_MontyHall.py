@@ -5,7 +5,7 @@ import matplotlib.pyplot as plt
 
 
 def sort_doors():
- 	lista =["goat","goat ","car"]
+ 	lista =["goat","goat","car"]
 	shuffle(lista)
 	return lista
 
@@ -27,7 +27,7 @@ def reveal_door(lista,choice):
 
 def finish_game(lista,choice,change):
 	valorLista = 0
-	print lista
+	#print lista
 	if(change == False):
 		
 		valorLista =lista[choice]	
